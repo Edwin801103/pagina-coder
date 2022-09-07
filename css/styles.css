@@ -10,11 +10,13 @@
 .header {
   position: sticky;
   top: 0%;
-  background-color: dodgerblue;
+  background-image: linear-gradient(to top, dodgerblue, black);
   padding: 30px 20px;
   border: 3px solid black;
   z-index: 1;
 }
+
+
 
 /*.header__content{
   
@@ -32,7 +34,15 @@
 }
 .header__search {
   float: right;
+  border: 3px solid purple;
+  outline: none;
 }
+.header__search:focus{
+
+  border: 3px solid blue;
+
+}
+
 .header__navbar li {
   background-color: black;
   list-style-type: none;
@@ -84,11 +94,27 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  
 }
 .main__pasos-paso1 {
-  background-color: white;
+  background-color:black;
+  color: white;
   padding: 30px;
+  animation-name: animacionpasos;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
+@keyframes animacionpasos{
+  0%{
+    background-color:black;
+    color:white;
+  }
+  100%{
+    background-color:darkslateblue;
+    color: black;
+  }
+}
+
 
 /*Novedades*/
 
