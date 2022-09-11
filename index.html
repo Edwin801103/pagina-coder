@@ -1,222 +1,181 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Se Armo la Gorra</title>
-    <link
-      rel="shortcut icon"
-      href="/asets/image/favicon guitar.png"
-      type="image/x-icon"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
 
-    <!--<link rel="stylesheet" href="./css/styles.css" />-->
-  </head>
-  <body>
-    <header class="bg-light" >
-      <div class="container ms-5.9">
-        <!--Logo -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Se Armo la Gorra</title>
+  <link rel="shortcut icon" href="/asets/image/favicon guitar.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
 
-        <!-- navbar -->
+<body>
+  <header class="header">
+    <div class="header__content">
 
-        <nav class=" navbar navbar-expand-lg bg-light">
-          <a href="./index.html"
-            ><img
-              width="100px"
-              class="header__logo"
-              src="./asets/image/se armo la.png"
-              alt="logo"
-          /></a>
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link disabled">Disabled</a>
-              </div>
-            </div>
-          </div>
-          
-        </nav>
-      </div>
-    </header>
+      <!--Logo -->
 
-    <main class="bg-secondary">
-      <section class=" container">
-        <div class="div_main__pasos-image">
-          <img src="./asets/image/15.jpg" class="img-fluid ms" alt="primeros pasos-image">
-          
+      <a href="./index.html">
+        <img class="header__logo" src="./asets/image/se armo la.png" alt="logo" />
+      </a>
+
+      <!--Search box -->
+
+      <input class="header__search" placeholder="Search" type="text" />
+
+      <!-- navbar -->
+
+      <nav>
+        <ul class="header__navbar">
+          <li><a href="/index.html">Home</a></li>
+
+          <li><a href="./pages/inscripcion.html">Inscripción</a></li>
+
+          <li><a href="./pages/sobresag.html">Sobre SAG</a></li>
+
+          <li><a href="./pages/bandas.html">Bandas</a></li>
+
+          <li><a href="./pages/galeria.html">Galería</a></li>
+
+          <li><a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+        <div class="header__navbar-menu">
+          <span>Menu</sapn>
         </div>
 
-        <section class="main__pasos-pasos">
-          <div class="main__pasos-reg">
-            <a href="./pages/inscripcion.html"><h1>Sumate a SAG</h1></a>
-          </div>
-          <section class="container text-center">
-            <div class="row m">
-              <div class="col">Paso 1</div>
-              <div class="col">Paso 2</div>
-              <div class="col">Paso 3</div>
-            </div>
-          </section>
-        </section>
-      </section>
+      </nav>
+    </div>
+  </header>
 
-      <!--Novedades-->
-
-      <section class="bg-warning container">
-        <h1>Novedades</h1>
-        <article class="main__novedades-texto">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
-          repellat quaerat, cupiditate adipisci velit quo iure similique animi
-          sapiente! Incidunt sit, qui nobis tenetur laudantium repellat
-          doloremque expedita unde facere quos, sapiente sunt. Rerum
-          necessitatibus quaerat ab repellat numquam dolores quidem, ducimus
-          eum, maxime quasi sequi pariatur voluptatibus. Voluptatum ipsa ea
-          ullam, culpa illum accusamus eaque at laborum animi, quasi
-          consequuntur? Et beatae magnam ab perferendis inventore laudantium
-          voluptas velit, neque accusantium eaque natus explicabo ratione maxime
-          sunt praesentium molestias enim, laboriosam temporibus a ut
-          consectetur eius! Nulla odit voluptas vero voluptate consectetur
-          quaerat, deleniti vitae, eaque ex repudiandae rerum.
-        </article>
-      </section>
-      <!--Bandas destacadas-->
-
-      <div class="card" style="width: 18rem">
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+  <main class="main">
+    <section class="main__pasos">
+      <div class="div_main__pasos-image">
+        <img class="main__pasos-image" src="./asets/image/15.jpg" alt="primeros pasos-image" />
       </div>
 
-
-      <!--Nos apoyan-->
-
-      <section class="main__nosapoyan">
-        <h1 class="main__nosapoyan-titulo">Conoce quienes nos apoyan</h1>
-        <div class="main__nosapoyan-iconos">
-          <div class="main__nosapoyan-iconos-empresas">
-            <img
-              src="./asets/image/Amazon-Logo.png"
-              width="100px"
-              alt="logo amazon"
-            />
+      <section class="main__pasos-pasos">
+        <div class="main__pasos-reg">
+          <a href="./pages/inscripcion.html">
+            <h2>Sumate a SAG</h2>
+          </a>
+        </div>
+        <div class="main__pasos-flex">
+          <div class="main__pasos-paso1">
+            <h2>Paso 1</h2>
+            <p>Te inscribes</p>
           </div>
-          <div class="main__nosapoyan-iconos-empresas">
-            <img
-              src="./asets/image/apple logo.png"
-              width="100px"
-              alt="logo apple"
-            />
+          <div class="main__pasos-paso1">
+            <h2>Paso 2</h2>
+            <p>Se seleccionan las bandas y los solistas</p>
           </div>
-          <div class="main__nosapoyan-iconos-empresas">
-            <img
-              src="./asets/image/logo-cocacola.png"
-              width="100px"
-              alt="logo-cocacola"
-            />
-          </div>
-          <div class="main__nosapoyan-iconos-empresas">
-            <img
-              src="./asets/image/logo-quilmes.jpg"
-              width="100px"
-              alt="logo-quilmes"
-            />
-          </div>
-          <div class="main__nosapoyan-iconos-empresas">
-            <img
-              src="./asets/image/intel_PNG20.png"
-              width="100px"
-              alt="logo-intel"
-            />
+          <div class="main__pasos-paso1">
+            <h2>Paso 3</h2>
+            <p>Tocas en el circuito local</p>
           </div>
         </div>
       </section>
-    </main>
+    </section>
 
-    <footer class="footer">
-      <!--Social media -->
+    <!--Novedades-->
 
-      <ul class="footer__redes">
-        <div class="footer__redes-iconos">
-          <li>
-            <a href="https://es-la.facebook.com/" target="_blank">
-              <img
-                src="./asets/image/iconos footer/icons8-facebook-96.png"
-                alt="Facebook"
-            /></a>
-          </li>
-        </div>
+    <section class="main__novedades">
+      <h2>Novedades</h2>
+      <article class="main__novedades-texto">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+        repellat quaerat, cupiditate adipisci velit quo iure similique animi
+        sapiente! Incidunt sit, qui nobis tenetur laudantium repellat
+        doloremque expedita unde facere quos, sapiente sunt. Rerum
+        necessitatibus quaerat ab repellat numquam dolores quidem, ducimus
+        eum, maxime quasi sequi pariatur voluptatibus. Voluptatum ipsa ea
+        ullam, culpa illum accusamus eaque at laborum animi, quasi
+        consequuntur? Et beatae magnam ab perferendis inventore laudantium
+        voluptas velit, neque accusantium eaque natus explicabo ratione maxime
+        sunt praesentium molestias enim, laboriosam temporibus a ut
+        consectetur eius! Nulla odit voluptas vero voluptate consectetur
+        quaerat, deleniti vitae, eaque ex repudiandae rerum.
+      </article>
+    </section>
+    <!--Bandas destacadas-->
 
-        <div class="footer__redes-iconos">
-          <li>
-            <a href="https://www.instagram.com/" target="_blank">
-              <img
-                src="./asets/image/iconos footer/icons8-instagram-96.png"
-                alt="instagram"
-            /></a>
-          </li>
+    <section class="main__bandasdestacadas">
+      <h2 class="main__bandasdestacadas-titulo">Bandas destacadas</h2>
+      <div class="main__bandasdestacadas-titulo-multimedia">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LprnrH4fmm4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <img class="main__bandasdestacadas-image" src="./asets/image/14.jpg" alt="Banda del momento" />
+      </div>
+    </section>
+
+    <!--Nos apoyan-->
+
+    <section class="main__nosapoyan">
+      <h2 class="main__nosapoyan-titulo">Conoce quienes nos apoyan</h2>
+      <div class="main__nosapoyan-iconos">
+        <div class="main__nosapoyan-iconos-empresas">
+          <img src="./asets/image/Amazon-Logo.png" width="100px" alt="logo amazon" />
         </div>
-        <div class="footer__redes-iconos">
-          <li>
-            <a href="https://www.twitch.tv/" target="_blank">
-              <img
-                src="./asets/image/iconos footer/icons8-twitch-96.png"
-                alt="Twitch"
-            /></a>
-          </li>
+        <div class="main__nosapoyan-iconos-empresas">
+          <img src="./asets/image/apple logo.png" width="100px" alt="logo apple" />
         </div>
-        <div class="footer__redes-iconos">
-          <li>
-            <a href="https://twitter.com/" target="_blank">
-              <img
-                src="./asets/image/iconos footer/icons8-twitter-96.png"
-                alt="twitter"
-            /></a>
-          </li>
+        <div class="main__nosapoyan-iconos-empresas">
+          <img src="./asets/image/logo-cocacola.png" width="100px" alt="logo-cocacola" />
         </div>
-        <div class="footer__redes-iconos">
-          <li>
-            <a href="https://web.whatsapp.com/" target="_blank">
-              <img
-                src="./asets/image/iconos footer/icons8-whatsapp-96.png"
-                alt="whatsapp"
-            /></a>
-          </li>
+        <div class="main__nosapoyan-iconos-empresas">
+          <img src="./asets/image/logo-quilmes.jpg" width="100px" alt="logo-quilmes" />
         </div>
-        <div class="footer__redes-iconos">
-          <li>
-            <a href="https://www.youtube.com/" target="_blank">
-              <img
-                src="./asets/image/iconos footer/icons8-youtube-96.png"
-                alt="youtube"
-            /></a>
-          </li>
+        <div class="main__nosapoyan-iconos-empresas">
+          <img src="./asets/image/intel_PNG20.png" width="100px" alt="logo-intel" />
         </div>
-      </ul>
-    </footer>
-  </body>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <!--Social media -->
+
+    <ul class="footer__redes">
+      <div class="footer__redes-iconos">
+        <li>
+          <a href="https://es-la.facebook.com/" target="_blank">
+            <img src="./asets/image/iconos footer/icons8-facebook-96.png" alt="Facebook" /></a>
+        </li>
+      </div>
+
+      <div class="footer__redes-iconos">
+        <li>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="./asets/image/iconos footer/icons8-instagram-96.png" alt="instagram" /></a>
+        </li>
+      </div>
+      <div class="footer__redes-iconos">
+        <li>
+          <a href="https://www.twitch.tv/" target="_blank">
+            <img src="./asets/image/iconos footer/icons8-twitch-96.png" alt="Twitch" /></a>
+        </li>
+      </div>
+      <div class="footer__redes-iconos">
+        <li>
+          <a href="https://twitter.com/" target="_blank">
+            <img src="./asets/image/iconos footer/icons8-twitter-96.png" alt="twitter" /></a>
+        </li>
+      </div>
+      <div class="footer__redes-iconos">
+        <li>
+          <a href="https://web.whatsapp.com/" target="_blank">
+            <img src="./asets/image/iconos footer/icons8-whatsapp-96.png" alt="whatsapp" /></a>
+        </li>
+      </div>
+      <div class="footer__redes-iconos">
+        <li>
+          <a href="https://www.youtube.com/" target="_blank">
+            <img src="./asets/image/iconos footer/icons8-youtube-96.png" alt="youtube" /></a>
+        </li>
+      </div>
+    </ul>
+
+  </footer>
+</body>
+
 </html>
