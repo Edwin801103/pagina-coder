@@ -15,8 +15,12 @@
   border: 3px solid black;
   z-index: 1;
 }
-
-
+.btn btn-outline-success{
+  background-color: red;
+}
+.li{
+  list-style-type: none;
+}
 
 /*.header__content{
   
@@ -32,34 +36,7 @@
   border-radius: 50%;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 100%);
 }
-.header__search {
-  float: right;
-  border: 3px solid purple;
-  outline: none;
-}
-.header__search:focus{
 
-  border: 3px solid blue;
-
-}
-
-.header__navbar li {
-  background-color: black;
-  list-style-type: none;
-  display: inline-flex;
-}
-.header__navbar li a {
-  color: white;
-  display: block;
-  padding: 10px 94px;
-  text-decoration: none;
-}
-.header__navbar li a:hover {
-  background-color: blueviolet;
-}
-.header__navbar-menu {
-  display: none;
-}
 
 .main {
   background-color: darkgrey;
