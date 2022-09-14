@@ -18,7 +18,9 @@
 .btn btn-outline-success{
   background-color: red;
 }
-
+.li{
+  list-style-type: none;
+}
 
 /*.header__content{
   
