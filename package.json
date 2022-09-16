@@ -1,0 +1,22 @@
+{
+  "name": "proyectosag",
+  "version": "1.0.0",
+  "description": "proyecto de practica ",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edwin801103/pagina-coder.git"
+  },
+  "author": "Edwin Zapata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edwin801103/pagina-coder/issues"
+  },
+  "homepage": "https://github.com/Edwin801103/pagina-coder#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
