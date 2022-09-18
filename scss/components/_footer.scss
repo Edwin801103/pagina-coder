@@ -1,0 +1,15 @@
+.footer {
+    width: auto;
+    height: 200px;
+    background-color: darkslateblue;
+    border: 3px solid black;
+  }
+  .footer__redes {
+    list-style-type: none;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 5px;
+    justify-items: center;
+    align-items: center;
+  }

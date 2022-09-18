@@ -30,3 +30,10 @@
     border-radius: 50%;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 100%);
   }
+  .header__navbar-menu {
+    background-color: black;
+    color: beige;
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    justify-content: center;
+  }
