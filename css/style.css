@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Source Code Pro", monospace; }
-
 .header {
   position: sticky;
   top: 0%;
@@ -32,6 +26,30 @@
   display: grid;
   grid-template-columns: 1, 1fr;
   justify-content: center; }
+
+@media (max-width: 1650px) {
+  .header__navbar li a {
+    padding: 10px 80px; } }
+
+@media (max-width: 1608px) {
+  .header__navbar li a {
+    padding: 10px 60px; } }
+
+@media (max-width: 1248px) {
+  .header__navbar li a {
+    padding: 10px 40px; } }
+
+@media (max-width: 1208px) {
+  .header__navbar li a {
+    padding: 10px 20px; } }
+
+@media (max-width: 770px) {
+  .header__navbar li a {
+    padding: 10px 0px; } }
+
+@media (max-width: 534px) {
+  .header__navbar li a {
+    display: none; } }
 
 .footer {
   width: auto;
@@ -157,10 +175,6 @@
   padding-top: 70px;
   padding-left: 140px; }
 
-.main__sobresag-multimedia {
-  padding-bottom: 50px;
-  margin-left: 250px; }
-
 .main__bandas {
   width: 800px; }
 
@@ -207,30 +221,6 @@
 
 .main__contacto-formulario-mail {
   padding: 40px; }
-
-@media (max-width: 1650px) {
-  .header__navbar li a {
-    padding: 10px 80px; } }
-
-@media (max-width: 1608px) {
-  .header__navbar li a {
-    padding: 10px 60px; } }
-
-@media (max-width: 1248px) {
-  .header__navbar li a {
-    padding: 10px 40px; } }
-
-@media (max-width: 1208px) {
-  .header__navbar li a {
-    padding: 10px 20px; } }
-
-@media (max-width: 770px) {
-  .header__navbar li a {
-    padding: 10px 0px; } }
-
-@media (max-width: 534px) {
-  .header__navbar li a {
-    display: none; } }
 
 @media (max-width: 942px) {
   .main__pasos-paso1 {

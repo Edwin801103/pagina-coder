@@ -1,58 +1,28 @@
-@media (max-width: 1650px) {
-    .header__navbar li a {
-      padding: 10px 80px;
-    }
+
+
+@media (max-width: 942px) {
+  .main__pasos-paso1 {
+    padding: 10px;
   }
-  @media (max-width: 1608px) {
-    .header__navbar li a {
-      padding: 10px 60px;
-    }
+}
+@media (max-width: 822px) {
+  .main__pasos-paso1 {
+    padding: 0px;
   }
-  @media (max-width: 1248px) {
-    .header__navbar li a {
-      padding: 10px 40px;
-    }
+}
+@media (max-width: 764px) {
+  .main__pasos-flex {
+    display: none;
   }
-  @media (max-width: 1208px) {
-    .header__navbar li a {
-      padding: 10px 20px;
-    }
+}
+@media (max-width: 1110px) {
+  .main__bandasdestacadas-titulo-multimedia {
+    display: grid;
+    grid-template-columns: 1fr;
   }
-  @media (max-width: 770px) {
-    .header__navbar li a {
-      padding: 10px 0px;
-    }
+}
+@media (max-width: 592px) {
+  .main__bandasdestacadas-titulo-multimedia {
+    display: none;
   }
-  @media (max-width: 534px) {
-    .header__navbar li a {
-      display: none;
-    }
-    
-  }
-  @media(max-width:942px){
-    .main__pasos-paso1{
-      padding: 10px;
-    }
-  }
-  @media(max-width:822px){
-    .main__pasos-paso1{
-      padding: 0px;
-    }
-  }
-  @media(max-width:764px){
-    .main__pasos-flex{
-      display: none;
-    }
-  }
-  @media(max-width:1110px){
-    .main__bandasdestacadas-titulo-multimedia{
-      display: grid;
-      grid-template-columns: 1fr;
-    }
-  }
-  @media(max-width:592px){
-    .main__bandasdestacadas-titulo-multimedia{
-     display: none;
-    }
-  }
-  
+}
