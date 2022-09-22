@@ -3,14 +3,12 @@
    border: 3px solid black;
  }
 
- .main__pasos {
-   border: 3px solid black;
- }
+ 
 
  .div_main__pasos-image {
    text-align: center;
    background-color: darkgrey;
-   border: 3px solid black;
+   
  }
 
  .main__pasos-image {
@@ -69,10 +67,7 @@
    justify-content: space-around;
  }
 
- .main__bandasdestacadas {
-   border: 3px solid black;
-
- }
+ 
 
  .main__bandasdestacadas-image {
    width: 530px;
@@ -93,7 +88,7 @@
 
  .main__nosapoyan {
    overflow: hidden;
-   border: 3px solid black;
+   border-top: 2px solid black;
  }
 
  .main__nosapoyan-titulo {
@@ -110,3 +105,29 @@
    align-items: center;
    justify-content: space-around;
  }
+ @media (max-width: 942px) {
+  .main__pasos-paso1 {
+    padding: 10px;
+  }
+}
+@media (max-width: 822px) {
+  .main__pasos-paso1 {
+    padding: 0px;
+  }
+}
+@media (max-width: 764px) {
+  .main__pasos-flex {
+    display: none;
+  }
+}
+@media (max-width: 1110px) {
+  .main__bandasdestacadas-titulo-multimedia {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 592px) {
+  .main__bandasdestacadas-titulo-multimedia {
+    display: none;
+  }
+}

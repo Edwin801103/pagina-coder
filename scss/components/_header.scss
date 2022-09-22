@@ -13,27 +13,6 @@
     background-color: red;
   }
 
-  .li {
-    list-style-type: none;
-  }
-
-
-  .header__logo {
-    width: 100px;
-    height: 100px;
-    background-image: url("/asets/image/se/armo/la.png");
-    background-size: cover;
-    border-radius: 50%;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 100%);
-  }
-
-  .header__navbar-menu {
-    background-color: black;
-    color: beige;
-    display: grid;
-    grid-template-columns: 1, 1fr;
-    justify-content: center;
-  }
 
   @media (max-width: 1650px) {
     .header__navbar li a {

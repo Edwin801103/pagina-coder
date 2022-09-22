@@ -1,18 +1,20 @@
 .main__bandas {
     width: 800px;
+    &__bandas-titulo {
+      font-size: 25px;
+      padding: 40px;
+    }
+    &__bandas-lista {
+      padding: 40px;
+    }
+    &__bandas-imagen {
+      width: 700px;
+    }
+    &__bandas-multimedia {
+      padding: 40px;
+      margin-left: 140px;
+    }
   }
   
-  .main__bandas-titulo {
-    font-size: 25px;
-    padding: 40px;
-  }
-  .main__bandas-lista {
-    padding: 40px;
-  }
-  .main__bandas-imagen {
-    width: 700px;
-  }
-  .main__bandas-multimedia {
-    padding: 40px;
-    margin-left: 140px;
-  }
+  
+  

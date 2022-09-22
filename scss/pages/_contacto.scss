@@ -1,19 +1,27 @@
-.main__contacto-titulo {
+.main {
+  &__contacto-titulo {
     font-size: 45px;
     padding: 40px;
   }
-  .main__contacto-formulario {
+
+  &__contacto-formulario {
     padding: 40px;
     margin-left: 150px;
+
+    &-formulario-nombre {
+      padding: 40px;
+    }
+
+    &-formulario-telefono {
+      padding: 40px;
+    }
+
+    &-formulario-mail {
+      padding: 40px;
+    }
   }
-  .main__contacto-formulario-nombre {
-    padding: 40px;
-  }
-  .main__contacto-formulario-telefono {
-    padding: 40px;
-  }
-  .main__contacto-formulario-mail {
-    padding: 40px;
-  }
-  @media (max-with) {
-  }
+}
+
+ @media (max-with) {
+  
+ }
