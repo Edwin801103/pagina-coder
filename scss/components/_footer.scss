@@ -1,6 +1,9 @@
 .footer {
   width: 100%;
-  height: 200px;
+  height: 100%;
+  padding: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   background-color: darkslateblue;
   &__redes {
     width: 100%;
@@ -12,4 +15,13 @@
     justify-items: center;
     align-items: center;
   }
+
 }
+
+.col img{
+
+  justify-items: end ;
+  width: 100%;
+  grid-template-columns: repeat(6, 1fr);
+ }
+

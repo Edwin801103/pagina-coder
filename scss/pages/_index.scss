@@ -1,79 +1,101 @@
  .main {
-  width: 100%;
+   width: 100%;
    background-color: darkgrey;
    border: 3px solid black;
- }
 
- 
+   &__pasos-image {
+     text-align: center;
+     background-color: darkgrey;
 
- .div_main__pasos-image {
-   text-align: center;
-   background-color: darkgrey;
+     &_banda {
+       width: 50%;
+       height: 50%;
+       position: relative;
+       background-color: grey;
+       margin: 10px;
+       padding: 10px;
+       box-sizing: border-box;
+     }
+
+   }
+
+   &__pasos-reg {
+     font-weight: bold;
+     padding: 30px;
+   }
+
+   &__pasos {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+
+     &-paso1 {
+       background-color: black;
+       color: white;
+       padding: 30px;
+       animation-name: animacionpasos;
+       animation-duration: 5s;
+       animation-iteration-count: infinite;
+     }
+   }
+
+   &__novedades {
+     /*  border: 3px solid black; */
+     padding: 40px;
+
+     &-texto {
+       display: grid;
+       grid-template-columns: 2, 1fr;
+     }
+   }
+
+   &__bandasdestacadas-titulo {
+     padding: 40px;
+
+   }
+
+   &__bandasdestacadas {
+     &-titulo-multimedia {
+       padding: 30px;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       column-gap: 5px;
+       justify-items: center;
+       align-items: center;
+       justify-content: space-around;
+
+     }
+
+     &-image {
+       width: 530px;
+
+     }
+
+   }
+   /* &__nosapoyan {
+    overflow: hidden;
+    border-top: 2px solid black;
+    &-titulo {
+      padding: 40px;
+    }
    
- }
+    &-iconos {
 
- .main__pasos-image {
-   width: 50%;
-   height: 50%;
-   position: relative;
-   background-color: grey;
-   margin: 10px;
-   padding: 10px;
-   box-sizing: border-box;
- }
-
- .main__pasos-reg {
-   font-weight: bold;
-   padding: 30px;
- }
-
- .main__pasos-flex {
-
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: center;
-
- }
-
- .main__pasos-paso1 {
-   background-color: black;
-   color: white;
-   padding: 30px;
-   animation-name: animacionpasos;
-   animation-duration: 5s;
-   animation-iteration-count: infinite;
- }
-
- .main__novedades {
-   border: 3px solid black;
-   padding: 40px;
- }
-
- .main__novedades-texto {
-   display: grid;
-   grid-template-columns: 2, 1fr;
- }
-
- .main__bandasdestacadas-titulo {
-   padding: 40px;
- }
-
- .main__bandasdestacadas-titulo-multimedia {
-   padding: 30px;
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   column-gap: 5px;
-   justify-items: center;
-   align-items: center;
-   justify-content: space-around;
+      padding: 10px;
+      margin: 10px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      column-gap: 15px;
+      justify-items: center;
+      align-items: center;
+      justify-content: space-around;
+    }
+  } */
+ 
+ 
  }
 
  
-
- .main__bandasdestacadas-image {
-   width: 530px;
-
- }
 
  @keyframes animacionpasos {
    0% {
@@ -87,48 +109,34 @@
    }
  }
 
- .main__nosapoyan {
-   overflow: hidden;
-   border-top: 2px solid black;
- }
 
- .main__nosapoyan-titulo {
-   padding: 40px;
- }
-
- .main__nosapoyan-iconos {
-   padding: 10px;
-   margin: 10px;
-   display: grid;
-   grid-template-columns: repeat(5, 1fr);
-   column-gap: 5px;
-   justify-items: center;
-   align-items: center;
-   justify-content: space-around;
- }
  @media (max-width: 942px) {
-  .main__pasos-paso1 {
-    padding: 10px;
-  }
-}
-@media (max-width: 822px) {
-  .main__pasos-paso1 {
-    padding: 0px;
-  }
-}
-@media (max-width: 764px) {
-  .main__pasos-flex {
-    display: none;
-  }
-}
-@media (max-width: 1110px) {
-  .main__bandasdestacadas-titulo-multimedia {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
-@media (max-width: 592px) {
-  .main__bandasdestacadas-titulo-multimedia {
-    display: none;
-  }
-}
+   .main__pasos-paso1 {
+     padding: 10px;
+   }
+ }
+
+ @media (max-width: 822px) {
+   .main__pasos-paso1 {
+     padding: 0px;
+   }
+ }
+
+ @media (max-width: 764px) {
+   .main__pasos-flex {
+     display: none;
+   }
+ }
+
+ @media (max-width: 1110px) {
+   .main__bandasdestacadas-titulo-multimedia {
+     display: grid;
+     grid-template-columns: 1fr;
+   }
+ }
+
+ @media (max-width: 592px) {
+   .main__bandasdestacadas-titulo-multimedia {
+     display: none;
+   }
+ }
