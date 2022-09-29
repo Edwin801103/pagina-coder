@@ -5,11 +5,8 @@
 
 .styletodo {
   margin: 0%;
-  background-color: darkgrey;
-  border: 3px solid black;
-  position: relative;
-  padding-bottom: 3em;
-  min-height: 100vh; }
+  background-color: #AED6F1;
+  border: 3px solid black; }
 
 .a {
   text-decoration: none; }
@@ -23,7 +20,7 @@
 .header {
   position: sticky;
   top: 0%;
-  background-image: linear-gradient(to top, dodgerblue, black);
+  background-image: linear-gradient(to top, #5DADE2, black);
   padding: 30px 20px;
   border: 3px solid black;
   z-index: 1; }
@@ -56,15 +53,14 @@
     display: none; } }
 
 .footer {
-  background-color: darkslateblue;
-  padding: 1em 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%; }
+  position: sticky;
+  bottom: 0%;
+  background-image: linear-gradient(to top, black, #5DADE2);
+  border: 3px solid black;
+  z-index: 1; }
 
 .main__pasos-image {
-  text-align: center;
-  background-color: darkgrey; }
+  text-align: center; }
   .main__pasos-image_banda {
     width: 50%;
     height: 50%;
