@@ -1,14 +1,17 @@
-.main__inscripcion {
+.main{
+
+
+&__inscripcion {
   padding: 40px;
+  &-titulo {
+    font-size: 50px;
+    padding-bottom: 40px;
+  }
+  &-imagengrupo {
+    width: 70%;
+    padding-right: 0;
+    padding-left: 350px;
+  }
 }
 
-.main__inscripcion-titulo {
-  font-size: 50px;
-  padding-bottom: 40px;
-}
-
-.imagengrupo {
-  width: 70%;
-  padding-right: 0;
-  padding-left: 350px;
 }

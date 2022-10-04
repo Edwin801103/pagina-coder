@@ -55,59 +55,56 @@
 
 .footer {
   position: sticky;
-  bottom: 0%;
+  padding-bottom: 0;
+  margin-bottom: 0;
   background-image: linear-gradient(to top, black, #AF7AC5);
   border: 3px solid black;
   z-index: 1; }
 
-.main__pasos-image {
-  text-align: center; }
-  .main__pasos-image_banda {
-    width: 50%;
-    height: 50%;
-    position: relative;
-    background-color: grey;
-    margin: 10px;
-    padding: 10px;
-    box-sizing: border-box; }
-
-.main__pasos-reg {
-  font-weight: bold;
-  padding: 30px; }
-
-.main__pasos {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center; }
-  .main__pasos-paso1 {
-    background-color: black;
-    color: white;
+.main {
+  min-height: 100vh; }
+  .main__pasos-image {
+    text-align: center; }
+    .main__pasos-image_banda {
+      width: 50%;
+      height: 50%;
+      position: relative;
+      background-color: grey;
+      margin: 10px;
+      padding: 10px;
+      box-sizing: border-box; }
+  .main__pasos-reg {
+    font-weight: bold;
+    padding: 30px; }
+  .main__pasos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
+    .main__pasos-paso1 {
+      background-color: black;
+      color: white;
+      padding: 30px;
+      animation-name: animacionpasos;
+      animation-duration: 5s;
+      animation-iteration-count: infinite; }
+  .main__novedades {
+    /*  border: 3px solid black; */
+    padding: 40px; }
+    .main__novedades-texto {
+      display: grid;
+      grid-template-columns: 2, 1fr; }
+  .main__bandasdestacadas-titulo {
+    padding: 40px; }
+  .main__bandasdestacadas-titulo-multimedia {
     padding: 30px;
-    animation-name: animacionpasos;
-    animation-duration: 5s;
-    animation-iteration-count: infinite; }
-
-.main__novedades {
-  /*  border: 3px solid black; */
-  padding: 40px; }
-  .main__novedades-texto {
     display: grid;
-    grid-template-columns: 2, 1fr; }
-
-.main__bandasdestacadas-titulo {
-  padding: 40px; }
-
-.main__bandasdestacadas-titulo-multimedia {
-  padding: 30px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 5px;
-  justify-items: center;
-  align-items: center;
-  justify-content: space-around; }
-
-.main__bandasdestacadas-image {
-  width: 530px; }
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around; }
+  .main__bandasdestacadas-image {
+    width: 530px; }
 
 @keyframes animacionpasos {
   0% {
@@ -140,15 +137,13 @@
 
 .main__inscripcion {
   padding: 40px; }
-
-.main__inscripcion-titulo {
-  font-size: 50px;
-  padding-bottom: 40px; }
-
-.imagengrupo {
-  width: 70%;
-  padding-right: 0;
-  padding-left: 350px; }
+  .main__inscripcion-titulo {
+    font-size: 50px;
+    padding-bottom: 40px; }
+  .main__inscripcion-imagengrupo {
+    width: 70%;
+    padding-right: 0;
+    padding-left: 350px; }
 
 .main__sobresag {
   padding: 40px; }
@@ -162,21 +157,21 @@
   padding-top: 70px;
   padding-left: 140px; }
 
-.main__bandas__bandas-titulo {
-  font-size: 25px;
-  padding: 40px; }
-
-.main__bandas__bandas-lista {
-  padding: 40px; }
-
-.main__bandas__bandas-imagen {
-  width: 700px; }
-
-.main__bandas__bandas-multimedia {
-  padding: 40px;
-  margin-left: 140px; }
+.main {
+  min-height: 100vh; }
+  .main__bandas__bandas-titulo {
+    font-size: 25px;
+    padding: 40px; }
+  .main__bandas__bandas-lista {
+    padding: 40px; }
+  .main__bandas__bandas-imagen {
+    width: 700px; }
+  .main__bandas__bandas-multimedia {
+    padding: 40px;
+    margin-left: 140px; }
 
 .main__galeria {
+  min-height: 100vh;
   padding: 40px;
   margin-left: 360px;
   margin-bottom: 50px; }
@@ -188,16 +183,17 @@
     padding: 40px;
     margin-left: 50px; }
 
-.main__contacto-titulo {
-  font-size: 45px;
-  padding: 40px; }
-
-.main__contacto-formulario {
-  padding: 40px;
-  margin-left: 150px; }
-  .main__contacto-formulario-formulario-nombre {
+.main {
+  min-height: 100vh; }
+  .main__contacto-titulo {
+    font-size: 45px;
     padding: 40px; }
-  .main__contacto-formulario-formulario-telefono {
-    padding: 40px; }
-  .main__contacto-formulario-formulario-mail {
-    padding: 40px; }
+  .main__contacto-formulario {
+    padding: 40px;
+    margin-left: 150px; }
+    .main__contacto-formulario-formulario-nombre {
+      padding: 40px; }
+    .main__contacto-formulario-formulario-telefono {
+      padding: 40px; }
+    .main__contacto-formulario-formulario-mail {
+      padding: 40px; }

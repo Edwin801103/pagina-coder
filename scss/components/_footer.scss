@@ -1,8 +1,9 @@
 .footer {
   position: sticky;
-  bottom: 0%;
+  padding-bottom: 0;
+  margin-bottom: 0;
   background-image: linear-gradient(to top,black, #AF7AC5 );
   border: 3px solid black;
   z-index: 1;
   }
-
+  

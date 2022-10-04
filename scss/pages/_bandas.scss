@@ -1,4 +1,7 @@
-.main__bandas {
+.main{
+  min-height: 100vh;
+
+&__bandas {
     
     
     &__bandas-titulo {
@@ -16,6 +19,7 @@
       margin-left: 140px;
     }
   }
+}
   
   
   
