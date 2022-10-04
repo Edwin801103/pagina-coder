@@ -6,7 +6,8 @@
 .styletodo {
   margin: 0%;
   background-color: #AED6F1;
-  border: 3px solid black; }
+  border: 3px solid black;
+  min-height: 100vh; }
 
 .a {
   text-decoration: none; }
@@ -20,7 +21,7 @@
 .header {
   position: sticky;
   top: 0%;
-  background-image: linear-gradient(to top, #5DADE2, black);
+  background-image: linear-gradient(to top, #AF7AC5, black);
   padding: 30px 20px;
   border: 3px solid black;
   z-index: 1; }
@@ -55,7 +56,7 @@
 .footer {
   position: sticky;
   bottom: 0%;
-  background-image: linear-gradient(to top, black, #5DADE2);
+  background-image: linear-gradient(to top, black, #AF7AC5);
   border: 3px solid black;
   z-index: 1; }
 
@@ -144,6 +145,11 @@
   font-size: 50px;
   padding-bottom: 40px; }
 
+.imagengrupo {
+  width: 70%;
+  padding-right: 0;
+  padding-left: 350px; }
+
 .main__sobresag {
   padding: 40px; }
 
@@ -156,19 +162,19 @@
   padding-top: 70px;
   padding-left: 140px; }
 
-.main__bandas {
-  /*     flex-grow: 100%; */
-  width: 800px; }
-  .main__bandas__bandas-titulo {
-    font-size: 25px;
-    padding: 40px; }
-  .main__bandas__bandas-lista {
-    padding: 40px; }
-  .main__bandas__bandas-imagen {
-    width: 700px; }
-  .main__bandas__bandas-multimedia {
-    padding: 40px;
-    margin-left: 140px; }
+.main__bandas__bandas-titulo {
+  font-size: 25px;
+  padding: 40px; }
+
+.main__bandas__bandas-lista {
+  padding: 40px; }
+
+.main__bandas__bandas-imagen {
+  width: 700px; }
+
+.main__bandas__bandas-multimedia {
+  padding: 40px;
+  margin-left: 140px; }
 
 .main__galeria {
   padding: 40px;
