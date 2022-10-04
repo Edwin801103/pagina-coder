@@ -1,6 +1,5 @@
 .main{
-
-
+  
 &__inscripcion {
   padding: 40px;
   &-titulo {
@@ -14,4 +13,9 @@
   }
 }
 
+}
+@media (max-width: 942px) {
+  .main{
+    padding-left: 0%;
+  }
 }

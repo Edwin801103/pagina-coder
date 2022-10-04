@@ -145,6 +145,10 @@
     padding-right: 0;
     padding-left: 350px; }
 
+@media (max-width: 942px) {
+  .main {
+    padding-left: 0%; } }
+
 .main__sobresag {
   padding: 40px; }
 
@@ -183,18 +187,22 @@
     padding: 40px;
     margin-left: 50px; }
 
-.main {
+.main__container-fluid {
   width: 100%;
   min-height: 100vh; }
-  .main__contacto-titulo {
+  .main__container-fluid__contacto-titulo {
     font-size: 45px;
     padding: 40px; }
-  .main__contacto-formulario {
+  .main__container-fluid__contacto-formulario {
     padding: 40px;
     margin-left: 150px; }
-    .main__contacto-formulario-formulario-nombre {
+    .main__container-fluid__contacto-formulario-formulario-nombre {
       padding: 40px; }
-    .main__contacto-formulario-formulario-telefono {
+    .main__container-fluid__contacto-formulario-formulario-telefono {
       padding: 40px; }
-    .main__contacto-formulario-formulario-mail {
+    .main__container-fluid__contacto-formulario-formulario-mail {
       padding: 40px; }
+
+@media (max-width: 942px) {
+  .main__container-fluid {
+    padding-left: 0%; } }
